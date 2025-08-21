@@ -32,49 +32,65 @@ This repository serves as a practical showcase of secure network design, virtual
 
 <h2>Project walk-through:</h2>
 
-
-<h3>Network Diagram:</h3>
 <p align="center">
-<img src="https://imgur.com/U7HG1gy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <h2>Network Diagram:</h2>
+</p>
+
+<p align="center">
+<img src="https://imgur.com/JZo1QHT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+<h2>IP Structure for the Network:</h2>
+<p align="center">
+<img src="https://imgur.com/uIL8r5z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br>
 
 <br/>
-<h3>IP Structure for the Network:</h3>
-<p align="center">
-<img src="https://imgur.com/QDXrGOn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <br>
 
 <br/>
-<h3>Deploying the VMs:</h3>
+<h2>Deploying the VMs:</h2>
 <p align="center">
-<img src="https://imgur.com/TQKiIUP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vnPLPZp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br>
-
+Installation of the supplied Production server VM INTO Trusted network!
 <br />
-<h3>Setting up the CEO PC IP address:</h3>
+<h2>A diagnostic scan using Nmap on the Production Server:</h2>
 <p align="center">
-<img src="https://imgur.com/QKiOMSe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/64VVZwb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br>
-
+Conducting a comprehensive Nmap scan to enumerate open ports, service versions, and operating system details on the production server.
 <br />
-<h3>Connectivity Test on The Network using ping utility:</h3>
-<p align="center">
-<img src="https://imgur.com/FWBBJkF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <br>
 
+<br/>
+<h2>Performed initial vulnerability exploitation:</h2>
+<p align="center">
+<img src="https://imgur.com/HYIvhjp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br>
+Performed initial vulnerability exploitation on a live server using Metasploit’s msfconsole, targeting CVE-2011-2523 in VSFTPD 2.3.4, and demonstrating proficiency in penetration testing and post-exploitation techniques.
+<h3>CVE-2011-2523 — Vulnerability Overview</h3>
+VSFTPD version 2.3.4 contains a critical backdoor vulnerability (CVE-2011-2523) introduced in versions downloaded between June 30 and July 3, 2011. This backdoor opens a shell on TCP port 6200, allowing unauthenticated remote access to the system. Exploitation of this flaw can lead to full compromise of the FTP server, exposing sensitive data and potentially enabling further lateral movement within the network
+
 <br />
-<h3>Performing Scanning Using NMAP Against DNS-Server:</h3>
+<br>
+
+<br/>
+<h2>Performing Scanning Using NMAP Against DNS-Server:</h2>
 <p align="center">
 <img src="https://imgur.com/1dkUkND.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br>
 
 <br />
+<br>
+
+<br/>
 <h3>Running an Active Scan Using NMAP RESULTS FOR WEB SERVER:</h3>
 <p align="center">
 <img src="https://imgur.com/NdEC0Xk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -82,27 +98,39 @@ This repository serves as a practical showcase of secure network design, virtual
 <br>
 
 <br />
-<h3>Running a Connectivity Test from a Trusted Network to Untrusted Network:</h3>
+<br>
+
+<br/>
+<h2>Running a Connectivity Test from a Trusted Network to Untrusted Network:</h2>
 <p align="center">
 <img src="https://imgur.com/SBWfKHC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br>
 
 <br />
-<h3>Running a Connectivity Test from a Untrusted Network to Trusted Network:</h3>
+<br>
+
+<br/>
+<h2>Running a Connectivity Test from a Untrusted Network to Trusted Network:</h2>
 <p align="center">
 <img src="https://imgur.com/yGawPpd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br>
 
 <br />
-<h3>Capturing Packets Using WireShark:</h3>
+<br>
+
+<br/>
+<h2>Capturing Packets Using WireShark:</h2>
 <p align="center">
 <img src="https://imgur.com/WBTZCnj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br>
 
 <br />
+<br>
+
+<br/>
 
 
 <h2>Conclusion</h2>
